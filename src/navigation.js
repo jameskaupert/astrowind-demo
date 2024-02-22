@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getAsset, getBlogPermalink, getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -29,6 +29,10 @@ export const headerData = {
         {
           text: 'Features (Anchor Link)',
           href: getPermalink('/#features'),
+        },
+        {
+          text: 'WLZ',
+          href: getPermalink('/wlz'),
         },
         {
           text: 'Services',
